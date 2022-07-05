@@ -2,9 +2,9 @@ console.log('conditionals');
 
 /* 
 if (salyga) {
-  vygdom jei true
+  vygdom jei salyga === true
 } else {
-  vygdom jei false
+  vygdom jei salyga === false
 }
 
 */
