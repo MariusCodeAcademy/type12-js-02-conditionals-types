@@ -1,5 +1,6 @@
 let username = 'James';
 let age = 28;
+
 let town = 'Finland';
 
 // Student James is 22 years old and he lives in Minsk.
@@ -34,7 +35,8 @@ let after5years = `${username} will be ${age + 5} in 5 years`;
 console.log('after5years ===', after5years);
 
 // gauti is vartotojo amziaus pokyti ir atspausdinti kiek bus meto po to pokycio
-let pokytis = prompt('po kiek metu ?');
+// let pokytis = prompt('po kiek metu ?');
+let pokytis = '100';
 // jei norim paziureti tipa tai galim pamatyti su typeof
 console.log(`pokytis tipas yra: ${typeof pokytis}`);
 console.log(typeof pokytis);
