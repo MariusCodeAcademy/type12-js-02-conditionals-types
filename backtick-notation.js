@@ -34,3 +34,11 @@ let after5years = `${username} will be ${age + 5} in 5 years`;
 console.log('after5years ===', after5years);
 
 // gauti is vartotojo amziaus pokyti ir atspausdinti kiek bus meto po to pokycio
+let pokytis = prompt('po kiek metu ?');
+// jei norim paziureti tipa tai galim pamatyti su typeof
+console.log(`pokytis tipas yra: ${typeof pokytis}`);
+console.log(typeof pokytis);
+// paverciam i skaiciu
+let pokytisNumber = Number(pokytis);
+after5years = `${username} will be ${age + pokytisNumber} in ${pokytisNumber} years`;
+console.log('after5years ===', after5years);
